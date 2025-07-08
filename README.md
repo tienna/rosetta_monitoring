@@ -1,5 +1,5 @@
 # rosetta_monitoring
-## add ports to .env file
+## add ports to .env file (eg `.env.docker-compose`)
 ```
 ## Monitoring variables
 PROMETHEUS_PORT=9090
