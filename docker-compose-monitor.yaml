@@ -25,7 +25,6 @@ services:
 
   postgresql-exporter:
     image: prometheuscommunity/postgres-exporter
-    container_name: postgresql-exporter
     environment:
        #DATA_SOURCE_NAME="postgresql://${DB_USER}:${DB_SECRET}@${DB_HOST}:${DB_PORT}/${DB_NAME}?sslmode=disable"
        #DATA_SOURCE_NAME="postgresql://rosetta_db_admin:weakpwd%23123_d@db:5432/rosetta-java?sslmode=disable"
