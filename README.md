@@ -8,5 +8,5 @@ POSTGRESQL_EXPORTER_PORT=9187
 ```
 ## run docker compose
 ```
-docker compose --env-file ../.env.docker-compose -f -f docker-compose-monitor.yaml  -d 
+docker compose --env-file ../.env.docker-compose  -f docker-compose-monitor.yaml up -d 
 ```
